@@ -1,0 +1,49 @@
+.website-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* margin: 10px; */
+  border-bottom: 3px solid #dcdcdc;
+}
+
+.website-logo,
+.website-theme {
+  width: 40px;
+}
+
+.theme-button {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.website-logo-img,
+.website-theme-img {
+  width: 100%;
+}
+
+.nav-list {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-item {
+  list-style-type: none;
+  padding: 0px 10px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.dark-theme {
+  background-color: #333333;
+  color: #ffffff;
+}
